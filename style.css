@@ -1,4 +1,4 @@
-body {
+ body {
   font-family: "Poppins", sans-serif;
 }
 
@@ -35,4 +35,8 @@ section {
 
 .link-button:hover {
   background-image: linear-gradient(tomato, orange);
+}
+
+.top-banner{
+  background-image: url(./images/top-banner.png);
 }
