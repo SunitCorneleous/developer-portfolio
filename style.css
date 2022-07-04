@@ -1,5 +1,6 @@
- body {
+body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 .orange-color {
@@ -12,6 +13,7 @@ h1 {
 
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 
 .half-width {
@@ -37,6 +39,13 @@ section {
   background-image: linear-gradient(tomato, orange);
 }
 
-.top-banner{
+.top-banner {
   background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.dream-big{
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
